@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>백준 문제풀기</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
 
   <body>
-    <h1 id="title">백준에서 문제풀고 채점받기</h1>
-    <a href="../index.html">← 돌아가기</a>
-    <p></p>
-    <a href="register-BOJ.html">← 백준 회원가입하고 세팅하기</a>
-    <p></p>
+    <header>
+      <h1 id="title">백준에서 문제풀고 채점받기</h1>
+    </header>
 
-    <h2><a href="https://boj.kr/1000" target="_blank">1. 1000번: A+B</a></h2>
-    <p>
-      문제의 내용은 두 정수 A, B를 입력받아 A+B를 출력하는 프로그램을 작성하는
-      것입니다. 문제 상단의 "제출" 버튼을 누르고, 정답 코드를 입력한 다음,
-      "제출"버튼을 누르면 채점이 시작됩니다. 모르는 부분이 있으면 질문 게시판을
-      통해 도움을 받을 수 있습니다.
-      <br />
-      <a href="https://www.acmicpc.net/blog/view/55" target="_blank">BOJ 101</a
-      >과
-      <a href="https://www.acmicpc.net/blog/view/70" target="_blank"
-        >자주 틀리는 요인</a
-      >은 꼭 읽어보시는 걸 추천합니다.
-      <br />
-      제가 제출한 코드는
-      <a href="https://www.acmicpc.net/source/84295954" target="_blank"
-        >84295954번 소스 코드</a
-      >에서 확인할 수 있습니다.
-    </p>
+    <main>
+      <p><a href="../index.html">← 돌아가기</a></p>
+      <p><a href="register-BOJ.html">← 백준 회원가입하고 세팅하기</a></p>
+
+      <h2><a href="https://boj.kr/1000" target="_blank">1. 1000번: A+B</a></h2>
+      <p>
+        문제의 내용은 두 정수 A, B를 입력받아 A+B를 출력하는 프로그램을 작성하는
+        것입니다. 문제 상단의 "제출" 버튼을 누르고, 정답 코드를 입력한 다음,
+        "제출"버튼을 누르면 채점이 시작됩니다. 모르는 부분이 있으면 질문
+        게시판을 통해 도움을 받을 수 있습니다.
+        <br />
+        <a href="https://www.acmicpc.net/blog/view/55" target="_blank"
+          >BOJ 101</a
+        >과
+        <a href="https://www.acmicpc.net/blog/view/70" target="_blank"
+          >자주 틀리는 요인</a
+        >은 꼭 읽어보시는 걸 추천합니다.
+      </p>
+      <code>
+        # 1000번 문제의 파이썬 코드입니다. <br />
+        a, b = map(int, input().split()) <br />
+        print(a + b)
+      </code>
+    </main>
   </body>
 </html>

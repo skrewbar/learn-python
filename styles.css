@@ -1,8 +1,8 @@
-@import url(https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css);
+/* @import url(https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css); */
+@import url(https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.classless.min.css);
 
 body {
   font-family: "AppleSDGothicNeoSB";
-  padding: 0 10% 0 10%;
 }
 @font-face {
   font-family: "AppleSDGothicNeoSB";
@@ -39,8 +39,4 @@ body {
 .inline-container > img {
   margin: 1rem;
   display: inline-block;
-}
-
-br {
-  height: 1rem;
 }
